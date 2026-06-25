@@ -77,30 +77,53 @@ choice of LED before (none, serial, or parallel setup):
 ### Step 1
 Use a bit of superglue to glue the three 3,5 mm jacks together, side by side and screw them in the front panel before the glue hardens. 
 
+![mounting jacks](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/jacks1.png)
+
+![mounting jacks](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/jacks2.png)
+
 ### Step 2
+
+![the five connectors of a jack](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/jacks3.png)
+
 The 3,5 mm jacks have 5 connectors, but we need only three (for two the upper two of the jacks) or two (for the lowest one) of them. 
 Remove the obsolete connectors
 
 ### Step 3 
-Ground the jacks, i.e. connect the three ground connectors of the jacks. in addition, connect the the switch connectors of the two upper jacks also to ground
+Ground the jacks, i.e. connect the three ground connectors of the jacks. in addition, connect the the switch connectors of the two upper jacks also to ground. Use black wire for this. 
 
 
-### Step 4
+### Step 4 (optional)
 Insert LED and resistor. It is important to insert the led correctly! 
-Connect LED and resistor. In addition, if wanted, connect the LED and resistor. 
+Connect the long leg of the LED and one leg of the resistor. Use yellow wire to create these connections.
 
-*Note*: This is optional! They change the sound characteristics of the module and both can be spared without altering 
-the functionality. 
+
+#### Parallel LED Option
+If you go for the parallel LED Option, you now connect the other/free leg of the resistor with the cv-input signal
+and the short / free leg of the LED with ground. For the ground connection use black wire! 
+
+#### Serial LED Option
+If you go for the serial LED option, you now connect the other/free leg of the resistor with the cv-input signal. 
+The short / free legt of the LED will be connected directly to the diode input later. 
+
+#### No LED Option
+If you opted for no LED, you are done with this step. maybe shorten the legs a bit. 
 
 ### Step 5
-Insert Capacitor and Diode if you want. *Note*: Both components are optional! They change the sound characteristics of the module and both can be spared without altering 
-the functionality. 
+Insert diode.
+The orientation of this element is crucial! Insert the diode such that the black ring shows to the right!
+Then connect the left leg, i.e. the leg without the black ring of the diode with the cv signal (or the free LED leg of you went for the serial option). Use 
+yellow wire for this. *Note:* left and right switch when turning around the panel, so check at least twice before connecting! In my image i have a parallel LED setup. So this might look different for you!
 
 ### Step 6
+Insert transistor.
 
-Insert the transistor and connect the three legs to the three signal connectors of the three jacks
+https://www.allelcoelec.com/blog/Understanding-the-BC107-Transistor.html?srsltid=AfmBOorVA2NBPfbJlrupQ_wQ-I_yuK2IqQBrZxm1x_9SKLc6y5Zss7ig shows for the BC107 which leg is which. For us it means put the transistor in its hole such that no leg points to the right.
+Then connect the left leg with the free leg of the diode. 
 
-And you are done. 
+onnect one of its end with ground and the other with the output signal. 
+Use grey wire for this. 
+
+
 
 
 ## Frontpanel
