@@ -3,6 +3,9 @@
 For Hack an der Ruhr (Hadr, https://hadr26.un-hack-bar.de/) i created one version of cvAtt to build together. 
 This is the documentation for that very version. 
 
+*WARNING: currently in my built there is some error! I do not know where and why so I am not sure that this works out as expected!**
+
+
 ## About
 Eurorack is a system / standart for modules which together build a synthesizer. It is very much the _unix approach to music_.
 This means, a module is a simple basic tool, serving on purpose. It has inputs and outputs and transforms somehow inputs into outputs.
@@ -90,20 +93,30 @@ Use a bit of superglue to glue the three 3,5 mm jacks together, side by side and
 ![the five connectors of a jack](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/jacks3.png)
 
 The 3,5 mm jacks have 5 connectors, but we need only three (for two the upper two of the jacks) or two (for the lowest one) of them. 
-Remove the obsolete connectors
+Remove the obsolete connectors. Which ones are well visible in the image of Step 3. I failed to make a good image here, sorry. 
 
 ### Step 3 
 Ground the jacks, i.e. connect the three ground connectors of the jacks. in addition, connect the the switch connectors of the two upper jacks also to ground. Use black wire for this. 
+
+![grounded jacks](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/grounded.png)
+
 
 
 ### Step 4 (optional)
 Insert LED and resistor. It is important to insert the led correctly! 
 Connect the long leg of the LED and one leg of the resistor. Use yellow wire to create these connections.
 
+![front view of led](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/led_front.png)
+![back view of led](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/led_back.png)
+
 
 #### Parallel LED Option
 If you go for the parallel LED Option, you now connect the other/free leg of the resistor with the cv-input signal
 and the short / free leg of the LED with ground. For the ground connection use black wire! 
+
+![parallel led](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/parallel_led1.png)
+![another view of parallel led](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/parallel_led2.png)
+
 
 #### Serial LED Option
 If you go for the serial LED option, you now connect the other/free leg of the resistor with the cv-input signal. 
