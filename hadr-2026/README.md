@@ -8,6 +8,10 @@ Eurorack is a system / standart for modules which together build a synthesizer. 
 This means, a module is a simple basic tool, serving on purpose. It has inputs and outputs and transforms somehow inputs into outputs.
 Connecting multiple modules allows to freely work with sound in a very creative and most of the time chaotic way. 
 
+![the completed built](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/completed.png)
+
+
+
 This is a very simple module, which can be easily built by yourself. It is a voltage controlled attentuator and does not require power supply. 
 It has two inputs: an Input signal (`In`) and a control signal (`cv`). It adjustes the _loudness_ of the input depending on the control signal.
 If the control signal is `0`, i.e. no power, the output signal will also be `0`. The the control signal has some constant power, the output matches the input, but the amplitude of the signal is damped,
