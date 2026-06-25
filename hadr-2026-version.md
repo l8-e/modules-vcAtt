@@ -1,9 +1,9 @@
-= Hack an der Ruhr - 2026 version
+# Hack an der Ruhr - 2026 version
 
 For Hack an der Ruhr (Hadr, https://hadr26.un-hack-bar.de/) i created one version of cvAtt to build together. 
 This is the documentation for that very version. 
 
-== About
+## About
 Eurorack is a system / standart for modules which together build a synthesizer. It is very much the _unix approach to music_.
 This means, a module is a simple basic tool, serving on purpose. It has inputs and outputs and transforms somehow inputs into outputs.
 Connecting multiple modules allows to freely work with sound in a very creative and most of the time chaotic way. 
@@ -22,7 +22,7 @@ Besides doing that, the module has tree optional elements:
 all three can be added, but do not have to. They can also easily be added or removed later. Changing this, also changes the behaviour of the output signal slightly,
 so as a first way to play with the module and vary the sound characteristics, adding or removing the optional elements yields different sounds. 
 
-== Testing
+## Testing
 
 I you do not have Eurorack modules to test this module with, you can connect the input to the audio output of a mobile phone or pc (note: the vcAtt is mono, not stereo!)
 and connect the output to some headphones. To hear a sound you now have to provide some power (0 - 5 V) to the control input.
@@ -30,7 +30,7 @@ The more power you provide the louder the signal will be.
 
 *Note:* Do this in your own risk! If you make mistakes in assembly this might harm headphones and/or the audio source! 
 
-== List of Items
+## List of Items
 
 * front panel
 * BC107 transistor
@@ -40,33 +40,33 @@ The more power you provide the louder the signal will be.
 * resistor
 * 3 x 3,5 mm jack
 
-== Schematics
+## Schematics
 
-==  Assembly
+##  Assembly
 
-=== Step 1
+### Step 1
 Use a bit of superglue to glue the three 3,5 mm jacks together, side by side and screw them in the front panel before the glue hardens. 
 
-== Step 2
+### Step 2
 The 3,5 mm jacks have 5 connectors, but we need only three (for two the upper two of the jacks) or two (for the lowest one) of them. 
 Remove the obsolete connectors
 
-== Step 3 
+### Step 3 
 Ground the jacks, i.e. connect the three ground connectors of the jacks. in addition, connect the the switch connectors of the two upper jacks also to ground
 
 
-== Step 4
+### Step 4
 Insert LED and resistor. It is important to insert the led correctly! 
 Connect LED and resistor. In addition, if wanted, connect the LED and resistor. 
 
 *Note*: This is optional! They change the sound characteristics of the module and both can be spared without altering 
 the functionality. 
 
-== Step 5
+### Step 5
 Insert Capacitor and Diode if you want. *Note*: Both components are optional! They change the sound characteristics of the module and both can be spared without altering 
 the functionality. 
 
-== Step 6
+### Step 6
 
 Insert the transistor and connect the three legs to the three signal connectors of the three jacks
 
