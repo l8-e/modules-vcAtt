@@ -22,6 +22,8 @@ Besides doing that, the module has tree optional elements:
 all three can be added, but do not have to. They can also easily be added or removed later. Changing this, also changes the behaviour of the output signal slightly,
 so as a first way to play with the module and vary the sound characteristics, adding or removing the optional elements yields different sounds. 
 
+The idea to use that very transistor to build a vcAtt is not mine! This work is based on the circuit https://lookmumnocomputer.discourse.group/t/lpg-vca-circuit/69/2 from lookmumnocomputer! So all credits goes to him and not me.
+
 ## Testing
 
 I you do not have Eurorack modules to test this module with, you can connect the input to the audio output of a mobile phone or pc (note: the vcAtt is mono, not stereo!)
@@ -86,5 +88,6 @@ One file tells where to mark the panel, on tells where to cut. The basic files c
 I used a laser cutter to cut the panels from wooden spatulas ("Eisstiele"), which are roughly 16mm wide, so they are big enough to get one 3hp eurorack module plate out of them. 
 
 
-
+# References
+* https://lookmumnocomputer.discourse.group/t/lpg-vca-circuit/69/2 the original circuit of lookmumnocomputer
 
