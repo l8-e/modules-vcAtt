@@ -34,11 +34,14 @@ The more power you provide the louder the signal will be.
 
 * front panel
 * BC107 transistor
-* capacitor
+* capacitor, 2,2nf
 * diode
-* led
-* resistor
+* led, 2.5mm yellow
+* resistor, roughly 470 Ohm
 * 3 x 3,5 mm jack
+
+![all required parts](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/parts.png)
+
 
 ## Schematics
 
@@ -77,5 +80,11 @@ And you are done.
 
 The front panel was via some spaghetti-python code, which creates svg files. 
 One file tells where to mark the panel, on tells where to cut. The basic files can be found at https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/front-hadr-2026-vcAtt-cut.svg and https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/front-hadr-2026-vcAtt-mark.svg. *Note:* Do not scale the images when printing or laser-cutting! The size of Eurorack modules is precisely defined and if the dimensions are changed, the module will not fit into a case and holes for elements will also not have the right size. 
+
+![panel, made from wooden spatula](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/panels_clipped.png)
+
+I used a laser cutter to cut the panels from wooden spatulas ("Eisstiele"), which are roughly 16mm wide, so they are big enough to get one 3hp eurorack module plate out of them. 
+
+
 
 
