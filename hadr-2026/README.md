@@ -113,21 +113,41 @@ The short / free legt of the LED will be connected directly to the diode input l
 If you opted for no LED, you are done with this step. maybe shorten the legs a bit. 
 
 ### Step 5
+Insert cap. Orientation does not matter.
+
+![front view of cap](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/cap_front.png)
+
+Then connect one leg to ground with black wire and the other leg with grey wire to the output signal:
+
+![back view of cap](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/cap_back1.png)
+![another back view of cap](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/cap_back2.png)
+
+
+### Step 6
 Insert diode.
+![front view of diode](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/diode_front.png)
+
 The orientation of this element is crucial! Insert the diode such that the black ring shows to the right!
 Then connect the left leg, i.e. the leg without the black ring of the diode with the cv signal (or the free LED leg of you went for the serial option). Use 
 yellow wire for this. *Note:* left and right switch when turning around the panel, so check at least twice before connecting! In my image i have a parallel LED setup. So this might look different for you!
 
-### Step 6
+![front view of diode](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/diode_back.png)
+
+
+
+### Step 7
 Insert transistor.
 
 https://www.allelcoelec.com/blog/Understanding-the-BC107-Transistor.html?srsltid=AfmBOorVA2NBPfbJlrupQ_wQ-I_yuK2IqQBrZxm1x_9SKLc6y5Zss7ig shows for the BC107 which leg is which. For us it means put the transistor in its hole such that no leg points to the right.
 Then connect the left leg with the free leg of the diode. 
 
-onnect one of its end with ground and the other with the output signal. 
-Use grey wire for this. 
 
+![transistor wiring](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/transistor.png)
 
+*Warning:* Do not bend done the transistors legs to far as I did for this image. Otherwise you might create a short 
+with the metal casing of the transistor!
+
+Now you are done and can fool around with the module! 
 
 
 ## Frontpanel
