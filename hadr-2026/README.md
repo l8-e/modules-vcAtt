@@ -13,13 +13,12 @@ It has two inputs: an Input signal (`In`) and a control signal (`cv`). It adjust
 If the control signal is `0`, i.e. no power, the output signal will also be `0`. The the control signal has some constant power, the output matches the input, but the amplitude of the signal is damped,
 depending on the power level of the control signal. 
 
-Besides doing that, the module has tree optional elements:
+Besides doing that, the module has two optional elements:
 
 * an LED
 * a capacitor
-* a diode
 
-all three can be added, but do not have to. They can also easily be added or removed later. Changing this, also changes the behaviour of the output signal slightly,
+all can be added, but do not have to. In addition, the LED can be added in two different ways, leading to six total variations of the module. They can also easily be added or removed later. Changing this, also changes the behaviour of the output signal slightly,
 so as a first way to play with the module and vary the sound characteristics, adding or removing the optional elements yields different sounds. 
 
 The idea to use that very transistor to build a vcAtt is not mine! This work is based on the circuit https://lookmumnocomputer.discourse.group/t/lpg-vca-circuit/69/2 from lookmumnocomputer! So all credits goes to him and not me.
@@ -37,7 +36,7 @@ The more power you provide the louder the signal will be.
 * front panel
 * BC107 transistor
 * capacitor, 2,2nf
-* diode
+* diode, in4146
 * led, 2.5mm yellow
 * resistor, roughly 470 Ohm
 * 3 x 3,5 mm jack
@@ -46,6 +45,32 @@ The more power you provide the louder the signal will be.
 
 
 ## Schematics
+
+### Basic version without optional elements
+
+![panel, made from wooden spatula](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/plain.png)
+
+### Adding the LED in serial option
+
+![panel, made from wooden spatula](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/serial_led.png)
+
+
+### Adding the LED in parallel option
+
+![panel, made from wooden spatula](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/parallel_led.png)
+
+
+### Adding the capacitor as low pass filter
+
+In case you decide to add the capacitor, the schematic looks as follows. Note that there are three versions, depending on your 
+choice of LED before (none, serial, or parallel setup):
+
+![panel, made from wooden spatula](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/caps.png)
+![panel, made from wooden spatula](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/parallel_led_caps.png)
+![panel, made from wooden spatula](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/serial_led_caps.png)
+
+
+
 
 ##  Assembly
 
