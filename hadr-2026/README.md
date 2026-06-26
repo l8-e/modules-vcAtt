@@ -1,4 +1,4 @@
-# Hack an der Ruhr - 2026 version
+# vcAtt (voltage controlled attentuator) - Hack an der Ruhr 2026 version
 
 For Hack an der Ruhr (Hadr, https://hadr26.un-hack-bar.de/) i created one version of cvAtt to build together. 
 This is the documentation for that very version. 
