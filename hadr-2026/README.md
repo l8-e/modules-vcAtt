@@ -3,9 +3,6 @@
 For Hack an der Ruhr (Hadr, https://hadr26.un-hack-bar.de/) i created one version of cvAtt to build together. 
 This is the documentation for that very version. 
 
-*WARNING: currently in my built there is some error! I do not know where and why so I am not sure that this works out as expected!**
-
-
 ## About
 Eurorack is a system / standart for modules which together build a synthesizer. It is very much the _unix approach to music_.
 This means, a module is a simple basic tool, serving on purpose. It has inputs and outputs and transforms somehow inputs into outputs.
@@ -41,7 +38,7 @@ The more power you provide the louder the signal will be.
 ## List of Items
 
 * front panel
-* BC107 transistor
+* BC107 or BC547 transistor
 * capacitor, 2,2nf
 * diode, in4146
 * led, 2.5mm yellow
@@ -90,7 +87,7 @@ Use a bit of superglue to glue the three 3,5 mm jacks together, side by side and
 
 ### Step 2
 
-![the five connectors of a jack](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/jacks3.png)
+![the five connectors of a jack](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/jacks_connectors.png)
 
 The 3,5 mm jacks have 5 connectors, but we need only three (for two the upper two of the jacks) or two (for the lowest one) of them. 
 Remove the obsolete connectors. Which ones are well visible in the image of Step 3. I failed to make a good image here, sorry. 
