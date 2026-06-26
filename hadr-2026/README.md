@@ -87,7 +87,7 @@ Use a bit of superglue to glue the three 3,5 mm jacks together, side by side and
 
 ### Step 2
 
-![the five connectors of a jack](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/jacks_connectors.png)
+![the five connectors of a jack](https://github.com/l8-e/modules-vcAtt/blob/main/hadr-2026/images/jack_connectors.png)
 
 The 3,5 mm jacks have 5 connectors, but we need only three (for two the upper two of the jacks) or two (for the lowest one) of them. 
 Remove the obsolete connectors. Which ones are well visible in the image of Step 3. I failed to make a good image here, sorry. 
